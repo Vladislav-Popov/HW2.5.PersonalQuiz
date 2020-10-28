@@ -22,7 +22,8 @@ class ResultsViewController: UIViewController {
     
     //MARK: - Override Methods
     override func viewDidLoad() {
-        self.navigationItem.setHidesBackButton(true, animated: false)
+        super.viewDidLoad()
+        navigationItem.setHidesBackButton(true, animated: false)
         
         showHowYouAnimal()
     }
