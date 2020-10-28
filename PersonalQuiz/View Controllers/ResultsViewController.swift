@@ -26,7 +26,6 @@ class ResultsViewController: UIViewController {
         
         showHowYouAnimal()
     }
-    
 }
 
 //MARK: - Private Methods
